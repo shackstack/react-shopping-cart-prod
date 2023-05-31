@@ -1,7 +1,7 @@
 import { useRecoilValue } from 'recoil';
 import { styled } from 'styled-components';
-import { cartSelector } from '../../store/cart';
-import { WIDTH } from '../../styles/mediaQuery';
+import { cartSelector } from '../../../store/cart';
+import { WIDTH } from '../../../styles/mediaQuery';
 
 const CartTextButton = () => {
   const { cartsQuantity } = useRecoilValue(cartSelector);
@@ -9,7 +9,7 @@ const CartTextButton = () => {
   return (
     <Container>
       <ShoppingCart>Cart</ShoppingCart>
-      {cartsQuantity ? <CartQuantity>{cartsQuantity}</CartQuantity> : null}
+      {Boolean(cartsQuantity) && <CartQuantity>{cartsQuantity}</CartQuantity>}
     </Container>
   );
 };

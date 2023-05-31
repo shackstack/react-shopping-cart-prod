@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.55d50f9d.js",
+    "main.js": "/static/js/main.e0bed8f0.js",
     "static/media/perpetua.ttf": "/static/media/perpetua.507e46e5f0cc5764f856.ttf",
     "static/media/tiffany-co.svg": "/static/media/tiffany-co.133483e047b441ffc297ae62d48c5c29.svg",
     "static/media/shopping-cart.svg": "/static/media/shopping-cart.9fa92ae3af8352855e7e8d01fcf7cfce.svg",
@@ -8,9 +8,9 @@
     "index.html": "/index.html",
     "static/media/unchecked-icon.svg": "/static/media/unchecked-icon.bcce86165b96fad8a31594263c501a8c.svg",
     "static/media/checked-icon.svg": "/static/media/checked-icon.a611379f9133fb832fa9e086467d94c4.svg",
-    "main.55d50f9d.js.map": "/static/js/main.55d50f9d.js.map"
+    "main.e0bed8f0.js.map": "/static/js/main.e0bed8f0.js.map"
   },
   "entrypoints": [
-    "static/js/main.55d50f9d.js"
+    "static/js/main.e0bed8f0.js"
   ]
 }

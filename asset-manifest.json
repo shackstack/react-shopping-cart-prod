@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/react-shopping-cart/static/js/main.60632546.js",
-    "static/media/perpetua.ttf": "/react-shopping-cart/static/media/perpetua.507e46e5f0cc5764f856.ttf",
-    "static/media/tiffany-co.svg": "/react-shopping-cart/static/media/tiffany-co.133483e047b441ffc297ae62d48c5c29.svg",
-    "static/media/shopping-cart.svg": "/react-shopping-cart/static/media/shopping-cart.9fa92ae3af8352855e7e8d01fcf7cfce.svg",
-    "static/media/trash-can.svg": "/react-shopping-cart/static/media/trash-can.4354ceef5105665f9096a9294a3b951b.svg",
-    "index.html": "/react-shopping-cart/index.html",
-    "static/media/unchecked-icon.svg": "/react-shopping-cart/static/media/unchecked-icon.bcce86165b96fad8a31594263c501a8c.svg",
-    "static/media/checked-icon.svg": "/react-shopping-cart/static/media/checked-icon.a611379f9133fb832fa9e086467d94c4.svg",
-    "main.60632546.js.map": "/react-shopping-cart/static/js/main.60632546.js.map"
+    "main.js": "/static/js/main.59b919b9.js",
+    "static/media/perpetua.ttf": "/static/media/perpetua.507e46e5f0cc5764f856.ttf",
+    "static/media/tiffany-co.svg": "/static/media/tiffany-co.133483e047b441ffc297ae62d48c5c29.svg",
+    "static/media/shopping-cart.svg": "/static/media/shopping-cart.9fa92ae3af8352855e7e8d01fcf7cfce.svg",
+    "static/media/trash-can.svg": "/static/media/trash-can.4354ceef5105665f9096a9294a3b951b.svg",
+    "index.html": "/index.html",
+    "static/media/unchecked-icon.svg": "/static/media/unchecked-icon.bcce86165b96fad8a31594263c501a8c.svg",
+    "static/media/checked-icon.svg": "/static/media/checked-icon.a611379f9133fb832fa9e086467d94c4.svg",
+    "main.59b919b9.js.map": "/static/js/main.59b919b9.js.map"
   },
   "entrypoints": [
-    "static/js/main.60632546.js"
+    "static/js/main.59b919b9.js"
   ]
 }

@@ -9,30 +9,33 @@ import OrderListPage from './pages/OrderListPage';
 import OrderDetailPage from './pages/OrderDetailPage';
 import { PATH } from './store/path';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    children: [
-      {
-        path: PATH.PRODUCT_PAGE,
-        element: <ProductPage />,
-      },
-      {
-        path: PATH.CART_PAGE,
-        element: <CartPage />,
-      },
-      {
-        path: PATH.ORDER_LIST_PAGE,
-        element: <OrderListPage />,
-      },
-      {
-        path: `${PATH.ORDER_LIST_PAGE}${PATH.ORDER_DETAIL_PAGE}/:id`,
-        element: <OrderDetailPage />,
-      },
-    ],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      children: [
+        {
+          path: PATH.PRODUCT_PAGE,
+          element: <ProductPage />,
+        },
+        {
+          path: PATH.CART_PAGE,
+          element: <CartPage />,
+        },
+        {
+          path: PATH.ORDER_LIST_PAGE,
+          element: <OrderListPage />,
+        },
+        {
+          path: `${PATH.ORDER_LIST_PAGE}${PATH.ORDER_DETAIL_PAGE}/:id`,
+          element: <OrderDetailPage />,
+        },
+      ],
+    },
+  ],
+  { basename: process.env.PUBLIC_URL }
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

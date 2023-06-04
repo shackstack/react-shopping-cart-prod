@@ -4,7 +4,8 @@ import ProductPage from '../pages/ProductPage';
 import CartPage from '../pages/CartPage';
 import OrderListPage from '../pages/OrderListPage';
 import OrderDetailPage from '../pages/OrderDetailPage';
-import { PATH } from '../store/path';
+import { PATH } from '../constants/path';
+import SignInPage from '../pages/SignInPage';
 
 const ROUTER = createBrowserRouter(
   [
@@ -13,8 +14,16 @@ const ROUTER = createBrowserRouter(
       element: <App />,
       children: [
         {
+          path: '',
+          element: <ProductPage />,
+        },
+        {
           path: PATH.PRODUCT_PAGE,
           element: <ProductPage />,
+        },
+        {
+          path: PATH.SIGN_IN,
+          element: <SignInPage />,
         },
         {
           path: PATH.CART_PAGE,
@@ -25,7 +34,7 @@ const ROUTER = createBrowserRouter(
           element: <OrderListPage />,
         },
         {
-          path: `${PATH.ORDER_LIST_PAGE}${PATH.ORDER_DETAIL_PAGE}/:id`,
+          path: `${PATH.ORDER_DETAIL_PAGE}/:id`,
           element: <OrderDetailPage />,
         },
       ],

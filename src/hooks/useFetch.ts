@@ -3,8 +3,8 @@ import { baseURLSelector } from '../store/server';
 import { AUTH } from '../constants/auth';
 import { useCallback } from 'react';
 import { END_POINTS } from '../constants/endPoints';
+import { FetchMethod } from '../types/request';
 
-export type FetchMethod = 'GET' | 'POST' | 'PATCH' | 'DELETE';
 type EndPointKeys = (typeof END_POINTS)[keyof typeof END_POINTS];
 
 const useFetch = (endPoint: EndPointKeys) => {
@@ -24,11 +24,12 @@ const useFetch = (endPoint: EndPointKeys) => {
         }
       );
 
-      if (!response.ok) throw new Error(`error code : ${response.status}`);
+      if (!response.ok) throw new Error('요청을 처리할 수 없습니다.');
 
       const data = await response.text();
       if (!data) return null;
-      return JSON.parse(data);
+
+      return await response.json();
     },
     [baseURL, endPoint]
   );

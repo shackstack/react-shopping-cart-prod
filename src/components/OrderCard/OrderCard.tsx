@@ -1,16 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import { styled } from 'styled-components';
-import { Order } from '../../types/responseData';
+import { Order } from '../../types/response';
 import OrderItem from './OrderItem/OrderItem';
-import { PATH } from '../../store/path';
-import { WIDTH } from '../../styles/mediaQuery';
+import { PATH } from '../../constants/path';
+import { WIDTH } from '../../constants/mediaQuery';
 
 type OrderCardProps = Order & {
   showDetailButton: boolean;
 };
 
 const OrderCard = ({
-  orderId,
+  id,
   items,
   productPrice,
   discountPrice,
@@ -21,9 +21,9 @@ const OrderCard = ({
   const navigate = useNavigate();
 
   const onClickNavigate = () => {
-    navigate(`${PATH.ORDER_LIST_PAGE}${PATH.ORDER_DETAIL_PAGE}/${orderId}`, {
+    navigate(`${PATH.ORDER_DETAIL_PAGE}/${id}`, {
       state: {
-        orderId,
+        id,
         items,
         productPrice,
         discountPrice,
@@ -36,7 +36,7 @@ const OrderCard = ({
     <Wrapper>
       <TopSection>
         <div>
-          Order No. <span>{orderId}</span>
+          Order No. <span>{id}</span>
         </div>
         {showDetailButton && (
           <button onClick={onClickNavigate}>상세보기</button>
@@ -49,7 +49,7 @@ const OrderCard = ({
 
           return (
             <OrderItem
-              key={`${orderId}/${productId}`}
+              key={`${id}/${productId}`}
               quantity={quantity}
               name={name}
               price={price}

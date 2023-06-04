@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import { WIDTH } from '../styles/mediaQuery';
+import { WIDTH } from '../constants/mediaQuery';
 import { useRecoilValue } from 'recoil';
 import OrderCard from '../components/OrderCard/OrderCard';
 import { orderAtom } from '../store/order';
@@ -12,9 +12,9 @@ const OrderListPage = () => {
     <Wrapper>
       <Title>주문 목록</Title>
       <OrderListContainer>
-        {Array.from(orders).map((order) => {
+        {orders.map((order) => {
           const {
-            orderId,
+            id,
             items,
             productPrice,
             discountPrice,
@@ -24,8 +24,8 @@ const OrderListPage = () => {
 
           return (
             <OrderCard
-              key={orderId}
-              orderId={orderId}
+              key={id}
+              id={id}
               items={items}
               productPrice={productPrice}
               discountPrice={discountPrice}

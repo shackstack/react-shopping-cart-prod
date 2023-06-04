@@ -1,8 +1,8 @@
 import { memo } from 'react';
 import styled from 'styled-components';
 import { ReactComponent as ShoppingCartImg } from '../../../assets/icon/shopping-cart.svg';
-import { WIDTH } from '../../../styles/mediaQuery';
-import { Product } from '../../../types/responseData';
+import { WIDTH } from '../../../constants/mediaQuery';
+import { Product } from '../../../types/response';
 import Counter from '../../common/Counter/Counter';
 import ProductImg from './ProductImg/ProductImg';
 import ProductInfo from './ProductInfo/ProductInfo';

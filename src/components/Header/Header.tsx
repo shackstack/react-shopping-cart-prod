@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import { styled } from 'styled-components';
 import { ReactComponent as ShoppingCartIcon } from '../../assets/icon/tiffany-co.svg';
-import { WIDTH } from '../../styles/mediaQuery';
+import { WIDTH } from '../../constants/mediaQuery';
 import { useRecoilState, useResetRecoilState } from 'recoil';
 import { ServerName, serverAtom } from '../../store/server';
 import CartTextButton from './CartTextButton/CartTextButton';
-import { PATH } from '../../store/path';
+import { PATH } from '../../constants/path';
 import { cartAtom } from '../../store/cart';
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <Container>
-      <Link to='/'>
+      <Link to={PATH.PRODUCT_PAGE}>
         <HomeButton>
           <ShoppingCartIconContainer>
             <ShoppingCartIcon width='100%' />
@@ -44,6 +44,7 @@ const Header = () => {
         <Link to={PATH.CART_PAGE}>
           <CartTextButton />
         </Link>
+        <Link to={PATH.SIGN_IN}>로그인</Link>
       </ButtonContainer>
     </Container>
   );

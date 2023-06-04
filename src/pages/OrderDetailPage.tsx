@@ -1,24 +1,18 @@
 import { useLocation } from 'react-router-dom';
 import OrderCard from '../components/OrderCard/OrderCard';
 import { styled } from 'styled-components';
-import { WIDTH } from '../styles/mediaQuery';
+import { WIDTH } from '../constants/mediaQuery';
 
 const OrderDetailPage = () => {
   const location = useLocation();
-  const {
-    orderId,
-    items,
-    productPrice,
-    discountPrice,
-    deliveryFee,
-    totalPrice,
-  } = location.state;
+  const { id, items, productPrice, discountPrice, deliveryFee, totalPrice } =
+    location.state;
 
   return (
     <Wrapper>
       <OrderCard
-        key={orderId}
-        orderId={orderId}
+        key={id}
+        id={id}
         items={items}
         productPrice={productPrice}
         discountPrice={discountPrice}

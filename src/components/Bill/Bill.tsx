@@ -10,9 +10,9 @@ import {
   isSelectedListAtom,
   totalAmountAtom,
 } from '../../store/cart';
-import { WIDTH } from '../../styles/mediaQuery';
+import { WIDTH } from '../../constants/mediaQuery';
 import { useNavigate } from 'react-router-dom';
-import { PATH } from '../../store/path';
+import { PATH } from '../../constants/path';
 import useFetchOrder from '../../hooks/useFetchOrder';
 import { orderAtom } from '../../store/order';
 import {

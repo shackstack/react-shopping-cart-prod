@@ -7,7 +7,7 @@
 
 ## 📝 실행 방법
 
-- <a href="https://react-shopping-cart-prod-6izahtdpl-shackstack.vercel.app/">앱 바로 실행하기</a>
+- <a href="https://tiffanyc0.vercel.app/">앱 바로 실행하기</a>
 
 - 터미널에서 npm 설치(`npm install`) 후 `npm start` 커맨드로 앱을 실행할 수 있다.
 

@@ -32,14 +32,14 @@ const Header = () => {
         </HomeButton>
       </Link>
       <ButtonContainer>
-        <ServerSelectBox
+        {/* <ServerSelectBox
           value={serverName}
           onChange={onChangeServerNameHandler}>
           <option value='SPLIT'>스플릿</option>
           <option value='ROY'>로이</option>
           <option value='IRAE'>이레</option>
           <option value='ERROR'>에러</option>
-        </ServerSelectBox>
+        </ServerSelectBox> */}
         {isSignedIn ? (
           <>
             <Link to={PATH.ORDER_LIST_PAGE}>

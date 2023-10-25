@@ -4,6 +4,9 @@ import { RouterProvider } from 'react-router-dom';
 import GlobalStyle from './styles/GlobalStyle';
 import ROUTER from './routes';
 import { RecoilRoot } from 'recoil';
+import { worker } from './mocks/browser';
+
+worker.start();
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

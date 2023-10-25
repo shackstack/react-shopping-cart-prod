@@ -1,86 +1,86 @@
 export const products = [
   {
     id: 1,
-    name: 'SPRAYCAN TEE',
-    price: 68000,
+    name: '발렌타인 샤인링',
+    price: 99000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904905_BLAC_2.jpg?v=1683635495',
+      'https://image.elandgift.com/images/web/Product/20220404/JW20220404130056685001.jpg',
   },
   {
     id: 2,
-    name: 'SPRAYCAN TEE',
-    price: 68000,
+    name: '럭키피쉬 탄생석 스톤라인 반지',
+    price: 199000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904905_WHIT_2_c8b4bbc9-8f9d-4cf3-a0e7-71dea5ea877e.jpg?v=1683635484',
+      'https://image.elandgift.com/images/web/Product/20230119/JW20230119123524062001.jpg',
   },
   {
     id: 3,
-    name: 'SPRAYCAN TEE',
-    price: 68000,
+    name: '도형 실반지 물결링 14K 미스링',
+    price: 79900,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904905_KEYL_2.jpg?v=1683635492',
+      'https://image.elandgift.com/images/web/Product/20210513/JW20210513124923802001.jpg',
   },
   {
     id: 4,
-    name: 'BASIC STÜSSY TEE',
-    price: 73000,
+    name: '심플 골드 실반지',
+    price: 79900,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904870_BLAC_2_88e20c3d-740d-4ef9-b800-289a3eb42332.jpg?v=1683148483',
+      'https://image.elandgift.com/images/web/Product/20210515/JW20210515163750408001.jpg',
   },
   {
     id: 5,
-    name: 'BASIC STÜSSY TEE',
-    price: 73000,
+    name: '볼륨 꼬임 14k 반지',
+    price: 159000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904870_KEYL_2.jpg?v=1683066793',
+      'https://image.elandgift.com/images/web/Product/20230116/JW20230116132247020001.jpg',
   },
   {
     id: 6,
-    name: 'BASIC STÜSSY TEE',
-    price: 73000,
+    name: '스톤 트와이스 미스링 14k 반지',
+    price: 159000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1904762_WHIT_2_deb0cb53-0c30-4c3c-b500-4b638570f92b.jpg?v=1683053168',
+      'https://image.elandgift.com/images/web/Product/20210515/JW20210515101457495001.jpg',
   },
   {
     id: 7,
-    name: 'BASIC STÜSSY TEE',
-    price: 73000,
+    name: 'mini 하트 도형 14k 반지',
+    price: 159000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/files/1904870_NAVY_2_4ad8cc0b-e859-4160-99d6-3e8bf7f5437e.jpg?v=1683134380',
+      'https://image.elandgift.com/images/web/Product/20211123/JW20211123083458889001.jpg',
   },
   {
     id: 8,
-    name: 'BASIC STÜSSY TEE',
+    name: '히든 컷팅 스키니링 반지',
     price: 73000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904870_CORA_2.jpg?v=1683635563',
+      'https://image.elandgift.com/images/web/Product/20220729/JW20220729093215153001.jpg',
   },
   {
     id: 9,
-    name: 'BASIC STÜSSY TEE',
+    name: '에폭시 화이트 미스링',
     price: 73000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904870_TEAA_2_5bc2332e-2432-432e-8704-b7747eeb1f6b.jpg?v=1683635566',
+      'https://image.elandgift.com/images/web/Product/20210820/JW20210820113955194001.jpg',
   },
   {
     id: 10,
-    name: 'BASIC STÜSSY TEE',
-    price: 73000,
+    name: '체크 컷팅 실반지 데일리 14k 미스링',
+    price: 79900,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904870_MAUV_2_e55073f1-2096-4f48-bd34-77cb8e5f7384.jpg?v=1683322292',
+      'https://image.elandgift.com/images/web/Product/20210513/JW20210513104551528001.jpg',
   },
   {
     id: 11,
-    name: 'DOMINOES TEE',
-    price: 64000,
+    name: '럭키피쉬 볼륨스톤 반지',
+    price: 259000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904898_BLAC_2_0e855ae6-658e-490f-a440-409f5c6bbf9a.jpg?v=1683635548',
+      'https://image.elandgift.com/images/web/Product/20230119/JW20230119121226219001.jpg',
   },
   {
     id: 12,
-    name: 'DOMINOES TEE',
-    price: 64000,
+    name: '모던브리티쉬 이터니티 커팅 14k 반지',
+    price: 299000,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0099/5708/1143/products/1904898_WHIT_2_b82ed260-a61f-4993-84f7-e573dcd46bdd.jpg?v=1683635542',
+      'https://image.elandgift.com/images/web/Product/20230418/JW20230418143827098001.jpg',
   },
 ];
